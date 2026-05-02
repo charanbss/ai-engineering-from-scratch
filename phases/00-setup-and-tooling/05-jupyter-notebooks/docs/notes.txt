@@ -1,0 +1,7 @@
+%timeit runs the code many times and averages. 
+%%time runs it once. 
+
+Use %timeit for microbenchmarks, %%time for training runs.
+
+
+del var and gc.collect() to be used together. import gc is needed.
